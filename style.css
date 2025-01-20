@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* sheared part of the project */
+.display-flex{
+    display: flex;
+}
+.text-color-1{
+    color: #FEA301;
+}
+.text-color-2{
+    color: #01ACFD;
+}
+.text-color-3{
+    color: #05D4DF;
+}
+.text-color-4{
+    color: #5D58EF;
+}
+.btn-primary{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #FEA301;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.btn-secondary{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #111111;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.description{
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #111111;
+}
+
+/* header part */
+
+.navbar{
+    justify-content: space-around;
+    padding: 1.4rem;
+}
+.logo{
+    align-items: center;
+    cursor: pointer;
+}
+.header-title{
+    font-size: 2.5rem;
+    margin-left: 1.3rem;
+}
+.ul-container{
+    justify-content: space-around;
+    align-items: center;
+}
+.ul-container li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.ul-container li a{
+    text-decoration: none;
+    margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+    padding: 0.4rem;
+    letter-spacing: 0;
+}
+.btn-primary{
+    margin-left: 50px;
+    transition: ease-out 0.4s;
+}
+.list-1{
+    border-left: 4px solid #FEA301;
+}
+.list-2{
+    border-left: 4px solid #01ACFD;
+}
+.list-3{
+    border-left: 4px solid #05D4DF;
+}
+.list-4{
+    border-left: 4px solid #5D58EF;
+}
+
+
+/*navbar hover section */
+.list-1:hover{
+    letter-spacing: 0.1rem;
+    background-color: #FEA301;
+    color: #fff;
+    font-weight: 600;
+}
+.list-2:hover{
+    letter-spacing: 0.1rem;
+    background-color: #01ACFD;
+    color: #fff;
+    font-weight: 600;
+}
+.list-3:hover{
+    letter-spacing: 0.1rem;
+    background-color: #05D4DF;
+    color: #fff;
+    font-weight: 600;
+}
+.list-4:hover{
+    letter-spacing: 0.1rem;
+    background-color: #5D58EF;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-primary:hover{
+    border: 1px solid #ccc;
+    color: #FEA301;
+    background-color: #fff;
+
+}
+/* header-banner-part */
+.banner-container{
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.banner-content{
+    max-width: 540px;
+}
+.banner-title{
+    font-size: 3.4rem;
+    margin-bottom: 0.8rem;
+}
