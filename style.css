@@ -174,12 +174,13 @@
     border-radius: 15px;
     margin: 2rem auto;
     overflow: hidden;
-    font-size: 1rem;
-    border: 2px solid #5D58EF;
+    font-size: 2rem;
+    /* border: 2px solid #5D58EF; */
     color: #111111;
     font-weight: 600;
-    box-shadow: -10px 10px 15px rgba(0,0,0,0.3);
+    /* box-shadow: -10px 10px 15px rgba(0,0,0,0.3); */
     white-space: nowrap;
+    text-shadow: -20px 30px 20px rgba(255,0,0,0.4);
 }
 .marquee-text{
     display: inline-block;
