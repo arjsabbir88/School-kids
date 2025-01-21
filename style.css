@@ -47,6 +47,21 @@
     font-weight: 200;
     color: #111111;
 }
+.same-btn{
+    padding: 0.4rem 0.6rem;
+    background-color: #95B226;
+    color: #fff;
+    border: 1px solid #95B226;
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.same-btn:hover{
+    background-color: #fff;
+    color: #95B226;
+}
 
 /* header part */
 
@@ -166,7 +181,7 @@
     background-repeat: no-repeat;
     max-width: 100%;
 }
-.curriculum-title{
+.curriculum-title,.story-title{
     text-align: center;
     font-size: 2.5rem;
     margin-top: 6rem;
@@ -299,6 +314,90 @@
     font-size: 2rem;
     cursor: pointer;
 }
+
+/* story section */
+
+.story-section{
+    background-image: url(assets/bg.png), linear-gradient(0.00deg, rgba(254,163,1,0.3),rgba(255,255,255,0.3)100%);
+    position: relative;
+}
+.story-section-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1140px;
+    /* max-height: 522px; */
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.story-card-1{
+    max-width: 440px;
+    max-height: 540px;
+    /* padding: 0 2rem; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.story-card-1 img{
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 8px 8px 0 0;
+}
+.story-btn{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 1px solid #05D4DF;
+    position: relative;
+    top: -50px;
+    /* right: -10px; */
+    background-color: #05D4DF;
+    color: #fff;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.story-btn:hover{
+    background-color: #fff;
+    color: #05D4DF;
+}
+.content{
+    padding: 0 2rem;
+}
+.content h3{
+    font-size: 1.8rem;
+    /* margin-top: rem; */
+    margin-bottom: 2rem;
+}
+.content p{
+    color: #616161;
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    max-height: 540px;
+}
+.card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.card button{
+    margin-left: 2rem;
+}
+.card h3{
+    margin-left: 2rem;
+    margin-top: -0.4rem;
+}
+.card img{
+    border-radius: 8px 8px 0 0;
+}
+.story-btn-2{
+    background-color: #5D58EF;
+    border: 1px solid #5D58EF;
+}
+.story-btn-2:hover{
+    color: #5D58EF;
+}
 /* make me responsive */
 
 @media screen and (max-width: 576px) {
@@ -339,5 +438,5 @@
     .curriculum-card{
         width: 80%;
     }
-    
+
 }
