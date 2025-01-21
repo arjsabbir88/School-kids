@@ -270,7 +270,35 @@
     color: #fff;
 }
 
+.angle{
+    justify-content: center;
+    gap: 2rem;
+}
 
+.left-angle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.right-angle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
 /* make me responsive */
 
 @media screen and (max-width: 576px) {
@@ -311,4 +339,5 @@
     .curriculum-card{
         width: 80%;
     }
+    
 }
