@@ -179,18 +179,6 @@
     white-space: nowrap;
     text-shadow: -20px 30px 20px rgba(255,0,0,0.4);
 }
-.marquee-text{
-    display: inline-block;
-    animation: marquee 20s infinite ease-in;
-}
-@keyframes marquee{
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
 
 /* curriculum-section */
 .curriculum-section{
@@ -435,7 +423,7 @@
     color: #5D58EF;
 }
 
-.view-btn-contaier{
+.view-btn-container{
     width: 200px;
     height: 70px;
     margin: 6rem auto 0rem;
