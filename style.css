@@ -523,6 +523,9 @@
 .social-logo img:hover{
     filter: brightness(50%);
 }
+.margin-top{
+    margin-top: 0;
+}
 /* make me responsive */
 
 @media screen and (max-width: 576px) {
@@ -563,10 +566,22 @@
     .curriculum-card{
         width: 80%;
     }
+    .angle{
+        display: none;
+    }
     .container-1{
         display: none;
     }
+    .container-2{
+        margin: 0 1rem;
+    }
     .footer-container{
         flex-direction: column;
+    }
+    .context-btn{
+        font-size: 0.6rem;
+    }
+    .context h3{
+        font-size: 0.7rem;
     }
 }
